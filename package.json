@@ -1,0 +1,11 @@
+{
+  "name": "watchhub",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=watchhub-frontend",
+    "build": "npm run build --workspace=watchhub-frontend"
+  }
+}

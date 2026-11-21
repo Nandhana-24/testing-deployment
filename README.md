@@ -29,7 +29,7 @@ From `watchhub/backend` run `mvn spring-boot:run`. The API listens on `http://lo
 
 ## Configure and run the frontend
 
-From `watchhub/frontend` run:
+From the project root (`watchhub`) run:
 
 ```powershell
 npm install
@@ -37,6 +37,8 @@ npm run dev
 ```
 
 Open the Vite URL (normally `http://localhost:5173`). Set `VITE_API_URL` if the backend is hosted elsewhere; it defaults to `http://localhost:8080/api`.
+
+You can also run these commands from `watchhub/frontend`.
 
 ## Features
 
